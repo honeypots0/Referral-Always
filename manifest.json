@@ -1,0 +1,18 @@
+{
+
+  "description": "This is a very simple program it send referal value with all request",
+  "manifest_version": 2,
+  "name": "Modify Header",
+  "version": "1.0",
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/user-agent-rewriter",
+
+  "permissions": [
+    "webRequest", "webRequestBlocking", "*://*/*" 
+  ],
+  
+  "background": {
+    "scripts": ["test.js"]
+  }
+
+
+}
